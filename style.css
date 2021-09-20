@@ -1,0 +1,28 @@
+*{
+    font-family: segoe, sans-serif;
+}
+  
+#wrapper {
+    width:500px;
+    margin:0 auto;
+    margin-top:40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+#fileDropBox {
+    margin-left:100px;
+    width: 20em;
+    line-height: 10em;
+    border: 1px dashed gray;
+    text-align: center;
+    color: gray;
+    border-radius: 7px;
+}
+
+.data-zone{
+    background-color: rgba(83, 228, 69, 0.6);
+}
